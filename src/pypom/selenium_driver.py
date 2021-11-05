@@ -5,9 +5,6 @@
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import (
-    Android,
-    BlackBerry,
-    Chrome,
     Edge,
     Firefox,
     Ie,
@@ -134,9 +131,6 @@ def register():
             Edge,
             Opera,
             Safari,
-            BlackBerry,
-            PhantomJS,
-            Android,
             Remote,
             EventFiringWebDriver,
         ],
